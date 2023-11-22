@@ -1,17 +1,30 @@
 .feat {
   background-color: whitesmoke;
-  padding-bottom: 80p;
+  
 
 }
 .posi{
   position: fixed !important;
   z-index: 2;
 }
+.rell{
+  display: none;
+}
 .car{
   transform: translateY(75px);
 }
-.padd{
-  transform: translatey(20px);
+.big{
+  display: none;
+}
+
+.rele{
+  position: absolute;
+  transform: translateY(-470px);
+  margin-left: 90px;
+}
+.desti{
+  font-size: 50px;
+  font-weight: 700px;
 }
 
 .text {
@@ -84,8 +97,18 @@
     font-size: small;
     transform: translate(120px);
   }
-  .posi{
-
+  .rell{
+    display: block;
+    position: absolute;
+    text-align: center;
+    
+  }
+  .big{
+    display: block;
+    /* padding-top: 700px; */
+  }
+  .rele{
+    display: none;
   }
   #images {
     width: 250px;
