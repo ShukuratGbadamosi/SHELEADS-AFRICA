@@ -1,0 +1,106 @@
+.feat {
+  background-color: whitesmoke;
+
+}
+
+.text {
+  text-align: center;
+  font-weight: 600;
+  font-size: larger;
+  padding-top: 30px;
+  color: black;
+}
+.same-size {
+  height: 200px; /* Set a specific height */
+  object-fit: cover; /* Maintain aspect ratio */
+  width: 100px; /* Ensure the image takes the full width of its container */
+}
+
+/* #images{
+    width: 500px;
+
+  } */
+#our {
+  font-size: large;
+}
+#our2 {
+  font-size: larger;
+  display: none;
+}
+
+.sla {
+  transform: translateY(200px);
+}
+
+.clas {
+  display: none;
+}
+.pan {
+  display: none;
+}
+.mms {
+  filter: brightness(0%) grayscale(100%);
+}
+.upp {
+  height: 100px;
+}
+.pad{
+  height: 43px;
+}
+@media screen and (max-width: 478px) {
+  #sign {
+    width: 150px;
+    font-size: small;
+    transform: translate(120px);
+  }
+  #images {
+    width: 250px;
+    margin-left: 60px;
+    margin-top: 20px;
+  }
+  #our2 {
+    display: block;
+  }
+  #our1 {
+    display: none;
+  }
+  #sla {
+    text-align: center;
+    transform: translateY(20px);
+  }
+  .clas {
+    display: block;
+  }
+  .clase {
+    display: none;
+  }
+
+  #s {
+    text-align: center;
+  }
+  #s {
+    text-align: center;
+  }
+  .pan {
+    display: block;
+  }
+  .pans {
+    display: none;
+  }
+  .upp{
+    padding-left: 300px;
+  }
+  .pass{
+    padding-top: 60px;
+  }
+  .piss{
+  transform: translateY(-60px);
+  }
+  .but{
+    height: 40px;
+  }
+  .get{
+  margin: 50px 0px ;
+  padding: 20px 2px;   
+  }
+}
