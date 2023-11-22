@@ -1,6 +1,17 @@
 .feat {
   background-color: whitesmoke;
+  padding-bottom: 80p;
 
+}
+.posi{
+  position: fixed !important;
+  z-index: 2;
+}
+.car{
+  transform: translateY(75px);
+}
+.padd{
+  transform: translatey(20px);
 }
 
 .text {
@@ -47,11 +58,34 @@
 .pad{
   height: 43px;
 }
+.white{
+  color: white;
+}
+.img2{
+  width: 160px;
+  margin-left: 50px;
+  transform: translateY(-50px);
+}
+.mbb{
+  margin-bottom: 1px;
+}
+.colly{
+  transform: translatex(240px);
+}
+.fitt{
+  display: block;
+}
+.secon{
+ display: none;
+}
 @media screen and (max-width: 478px) {
   #sign {
     width: 150px;
     font-size: small;
     transform: translate(120px);
+  }
+  .posi{
+
   }
   #images {
     width: 250px;
@@ -103,4 +137,22 @@
   margin: 50px 0px ;
   padding: 20px 2px;   
   }
+  .colly{
+  transform: translatex(5px);
+  padding-bottom: 10px;
+  font-size: small;
+
+  }
+  .coll{
+    transform: translatex(-20px);
+    padding-bottom: 10px;
+    font-size: small;
+  
+    }
+    .fitt{
+      display: none;
+    }
+    .secon{
+      display: block;
+    }
 }
